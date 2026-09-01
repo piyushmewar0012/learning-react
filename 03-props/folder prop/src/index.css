@@ -1,0 +1,38 @@
+.body
+{
+  background-color: black;
+}
+.parent
+{
+  border-radius: 5px;
+  border: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  gap: 20px;
+}
+.card
+{
+  background: #bbf0ff;
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+
+}
+.card img
+{
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card button
+{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px 5px;
+  background: rgb(246, 216, 22);
+  text-decoration: solid;
+  text-decoration-thickness: solid black;
+}
