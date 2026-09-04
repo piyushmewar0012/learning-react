@@ -1,11 +1,12 @@
-import React from 'react'
 import Rightcard from './rightcard'
 
-const Rightcontent = () => {
+const Rightcontent = (props) => {
   return (
-    <div className=' py-8 px-8 h-full w-2/3'>
-         <Rightcard/>
-       
+    <div id= 'right'className=' py-8 overflow-x-auto px-8 flex flex-nowrap gap-10 h-full w-2/3'>
+      {props.users.map(function(elems,idx)
+      {
+        return <Rightcard key={idx} id={idx} img={elems.img} tag={elems.tag}/>
+      })}
     </div>
   )
 }

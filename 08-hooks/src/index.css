@@ -1,0 +1,25 @@
+*
+{
+  background: grey;
+  gap: 10px;
+}
+.but1
+{
+  background-color: rgb(197, 197, 251);
+  padding: 10px 20px;
+  margin-right: 5px;
+  
+  
+}
+.but2
+{
+  background-color: rgb(197, 197, 251);
+  padding: 10px 20px;
+  margin-right: 5px;
+  
+}
+.h11
+{
+  margin-left:40px ;
+  font-size: 100px;
+}
