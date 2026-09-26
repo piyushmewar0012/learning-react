@@ -3,7 +3,7 @@ import Navbar from './navbar'
 import Content1 from './content1'
 const Section1 = (props) => {
   return (
-    <div className='h-full w-full'>
+    <div className='h-full w-full bg-black'>
      < Navbar/>
      <Content1 users={props.users}/>
     </div>
